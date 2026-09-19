@@ -2,15 +2,15 @@
 
 ## 1. Identificação
 
-**Turma:** [QS_Noite]  
+**Turma:** QS_Noite  
 **Equipe:** Individual  
-**Data:** [22/09/2026]
+**Data:** 22/09/2026
 
 ### Integrantes
 
 | Nome | Usuário no GitHub |
 |---|---|
-| Elinton | @[Elinton-Souza] |
+| Elinton | @Elinton-Souza |
 
 **Elemento de Competência:** Compreender os fundamentos de qualidade de software e sua aplicação no desenvolvimento de sistemas.
 
@@ -18,13 +18,13 @@
 
 ---
 
-## 2. Tarefa 1: Fundamentos de qualidade
+## 2. Tarefa 1: Fundamentos da qualidade
 
-### 2.1 Necessidade explícitas e implícitas
+### 2.1 Necessidades explícitas e implícitas
 
 | Tipo | Necessidade | Interessado | Consequência se não for atendida |
 |---|---|---|---|
-| Explícita | O úsuário deve conseguir criar uma conta | Pessoa que ainda não possui cadastro | Frustração em ter que repetir o processo ou desistir de usar o app
+| Explícita | O úsuário deve conseguir criar uma conta | Pessoa que ainda não possui cadastro | Frustração em ter que repetir o processo ou desistir de usar o app |
 | Explícita | O usuário deve conseguir buscar por um restaurante específico e encontrar exatamente esse restaurante | Usuário logado que já sabe o nome do restaurante que procura | Ele desiste de encontrar o restaurante pela busca e precisa navegar manualmente por toda a lista | 
 | Implícita | Os favoritos e o histórico de pedidos devem continuar salvos depois que o usuário sai do sistema e entra novamente | Usuário logado que já usou o app antes | Frustração e perda de confiança no aplicativo, tendo que refazer favoritos e pedidos |
 | Implícita | A aplicação deve funcionar corretamente em telas de tamanhos diferentes, sem precisar girar o aparelho ou dar zoom | Usuário que acessa pelo smartphone | Ele desiste de usar o app pelo celular e passa a usar só pelo computador |
@@ -60,11 +60,10 @@ Sim, um sistema pode implementar corretamente todas as funcionalidades pedidas e
 ## 5. Uso de inteligência artificial
 
 **Ferramenta utilizada:**  
-[Gemini (assistente de IA do Google) e Claude (Anthropic)]
+Gemini (assistente de IA do Google) e Claude (Anthropic)
 
 **Como foi utilizada:**  
-[Usei o Gemini para entender melhor as características de qualidade da norma ISO/IEC 25010, já que o enunciado exige relacionar as situações analisadas a uma característica ou subcaracterística predominante. Usei o Claude para me ajudar a reorganizar minhas respostas (necessidades explícitas/implícitas, exploração da aplicação e evidências) dentro do template atual da atividade, que havia sido simplificado pelo professor em relação a uma versão anterior que eu já tinha preenchido.
-]
+Usei o Gemini para entender melhor as características de qualidade da norma ISO/IEC 25010, já que o enunciado exige relacionar as situações analisadas a uma característica ou subcaracterística predominante. Usei o Claude para me ajudar a reorganizar minhas respostas (necessidades explícitas/implícitas, exploração da aplicação e evidências) dentro do template atual da atividade, que havia sido simplificado pelo professor em relação a uma versão anterior que eu já tinha preenchido.
 
 **Como as respostas foram verificadas:**  
-[Comparei a explicação do Gemini sobre a ISO/IEC 25010 com o material da disciplina antes de aplicar a classificação de "Adequação Funcional" à situação analisada, para confirmar que fazia sentido. As necessidades identificadas, os testes realizados na aplicação e as evidências (prints) são meus, de quando explorei o LocalEats por conta própria; revisei e reescrevi o texto final com minhas próprias palavras antes de colar no repositório.]
+Comparei a explicação do Gemini sobre a ISO/IEC 25010 com o material da disciplina antes de aplicar a classificação de "Adequação Funcional" à situação analisada, para confirmar que fazia sentido. As necessidades identificadas, os testes realizados na aplicação e as evidências (prints) são meus, de quando explorei o LocalEats por conta própria; revisei e reescrevi o texto final com minhas próprias palavras antes de colar no repositório.
