@@ -73,7 +73,7 @@ Verificar se a funcionalidade de busca de restaurantes do LocalEats retorna corr
 | ID | Integrante | Funcionalidade | Risco | Consequência | Probabilidade | Impacto | Prioridade | Justificativa |
 |---|---|---|---|:---:|:---:|:---:|:---:|---|
 | R01 | Elinton | Pesquisar restaurantes | A busca por uma categoria existente não retorna os restaurantes correspondentes | O usuário acredita que não há restaurantes daquela categoria e desiste de usar o aplicativo | Alta | Alto | Alta | Comportamento já evidenciado na Atividade 1 (busca por "Italiana" retornou nenhum resultado, mesmo a categoria existindo) |
-| R02 | Elinton | Pesquisar restaurantes | A busca por um nome exato de restaurante existente não retorna esse restaurante | O usuário não encontra um restaurante que já conhece, mesmo ele estando disponível na tela inicial | Alta | Médio | Alta | Mesmo comportamento evidenciado na Atividade 1 (busca por "Restaurante Sabor 0" não retornou resultado) |
+| R02 | Elinton | Pesquisar restaurantes | A busca por um nome exato de restaurante existente não retorna esse restaurante | O usuário não encontra um restaurante que já conhece, mesmo ele estando disponível na tela inicial | Alta | Alto | Alta | Mesmo comportamento evidenciado na Atividade 1 (busca por "Restaurante Sabor 0" não retornou resultado). Classifiquei como impacto Alto porque é a mesma causa raiz do R01 (falha geral na função de busca) e porque a busca não apenas falha, mas responde de forma enganosa ("Nenhum restaurante encontrado") para uma necessidade que eu já havia registrado como explícita na Atividade 1 |
 
 ### 3.2 Aplicação das técnicas
 
@@ -188,13 +188,13 @@ O sistema exibe a mensagem "Nenhum restaurante encontrado", sem apresentar erro.
 ## 5. Uso de inteligência artificial
 
 **Ferramenta utilizada:**  
-[preencher você]
+Claude (Anthropic).
 
 **Como foi utilizada:**  
-[preencher você]
+Usei o Claude para me ajudar a planejar os testes, definir os riscos, aplicar a técnica de particionamento de equivalência e elaborar os casos de teste, seguindo a estrutura oficial do template do professor.
 
 **Uma sugestão que precisou ser alterada ou rejeitada:**  
-[preencher você]
+A classificação inicial sugerida para o Impacto do risco R02 foi "Médio", com a justificativa de que o usuário ainda poderia encontrar o restaurante navegando manualmente pela lista. Alterei para "Alto", pois esse risco tem a mesma causa raiz do R01 (falha geral na função de busca) e afeta uma necessidade que eu já havia registrado como explícita na Atividade 1, além de a busca responder de forma enganosa ao usuário em vez de apenas ser lenta ou incompleta.
 
 **Como as respostas foram verificadas:**  
-[preencher você]
+Conferi o enunciado oficial da Atividade 3 e o template do GitHub do professor para confirmar a estrutura esperada. Os riscos identificados e as classes de equivalência aplicadas se baseiam nas evidências reais coletadas na Atividade 1 (a falha na busca por categoria e por nome exato), que já eram minhas de antes.
