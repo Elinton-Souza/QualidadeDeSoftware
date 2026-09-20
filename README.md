@@ -6,7 +6,7 @@ Repositório para as atividades da Unidade Curricular Qualidade de Software.
 
 | Nome | Turma | Usuário no GitHub |
 |---|---|---|
-| Elinton | [QS_Noite] | @[Elinton-Souza] |
+| Elinton | QS_Noite | @Elinton-Souza |
 
 ## Atividades
 
