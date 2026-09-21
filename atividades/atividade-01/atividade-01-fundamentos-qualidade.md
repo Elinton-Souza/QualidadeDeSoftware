@@ -34,7 +34,7 @@
 
 **Um sistema que implementa todas as funcionalidades explicitamente solicitadas pode, ainda assim, apresentar baixa qualidade? Justifiquem utilizando pelo menos uma necessidade implícita identificada pela equipe.**
 
-Sim, um sistema pode implementar corretamente todas as funcionalidades pedidas e, mesmo assim, ter baixa qualidade. No LocalEats, por exemplo, mesmo que o layout esteja perfeitamente visível no computador, se eu precisar girar o smartphone ou dar zoom para conseguir usar os botões principais, essa experiência revela um problema de qualidade — mesmo que a funcionalidade em si esteja tecnicamente funcionando. Isso mostra que qualidade não é só ter as funcionalidades implementadas: é atender expectativas que o usuário tem mesmo quando ninguém escreveu isso em nenhum requisito.
+Sim, um sistema pode implementar corretamente todas as funcionalidades pedidas e, mesmo assim, ter baixa qualidade. No LocalEats, por exemplo, mesmo que o layout esteja perfeitamente visível no computador, se eu precisar girar o smartphone ou dar zoom para conseguir usar os botões principais, essa experiência revela um problema de qualidade, mesmo que a funcionalidade em si esteja tecnicamente funcionando. Isso mostra que qualidade não é só ter as funcionalidades implementadas: é atender expectativas que o usuário tem mesmo quando ninguém escreveu isso em nenhum requisito.
 
 ---
 
@@ -66,4 +66,4 @@ Gemini (assistente de IA do Google) e Claude (Anthropic)
 Usei o Gemini para entender melhor as características de qualidade da norma ISO/IEC 25010, já que o enunciado exige relacionar as situações analisadas a uma característica ou subcaracterística predominante. Usei o Claude para me ajudar a reorganizar minhas respostas (necessidades explícitas/implícitas, exploração da aplicação e evidências) dentro do template atual da atividade, que havia sido simplificado pelo professor em relação a uma versão anterior que eu já tinha preenchido.
 
 **Como as respostas foram verificadas:**  
-Comparei a explicação do Gemini sobre a ISO/IEC 25010 com o material da disciplina antes de aplicar a classificação de "Adequação Funcional" à situação analisada, para confirmar que fazia sentido. As necessidades identificadas, os testes realizados na aplicação e as evidências (prints) são meus, de quando explorei o LocalEats por conta própria; revisei e reescrevi o texto final com minhas próprias palavras antes de colar no repositório.
+Comparei a explicação do Gemini sobre a ISO/IEC 25010 com o material da disciplina antes de aplicar a classificação de "Adequação Funcional" à situação analisada, para confirmar que fazia sentido. As necessidades identificadas, os testes realizados na aplicação e as evidências (prints) são meus, de quando explorei o LocalEats por conta própria.

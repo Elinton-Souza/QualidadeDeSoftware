@@ -23,7 +23,7 @@
 | Problema identificado | Possível consequência para o produto ou para a equipe |
 |---|---|
 | Não está claro quem pode aprovar a disponibilização de uma nova versão | Uma versão com defeitos pode ser lançada sem que ninguém tenha formalmente decidido que ela estava pronta, ou o lançamento pode atrasar porque ninguém se sente autorizado a aprovar |
-| Alguns integrantes acreditam que somente o QA deve testar | Desenvolvedores não testam o próprio código antes de entregar, sobrecarregando o QA e permitindo que defeitos simples cheguem tarde no processo, ou até ao usuário final |
+| Acredito que somente o QA deve testar | Desenvolvedores não testam o próprio código antes de entregar, sobrecarregando o QA e permitindo que defeitos simples cheguem tarde no processo, ou até ao usuário final |
 | Defeitos são identificados, mas nem sempre são registrados ou acompanhados | O mesmo defeito pode reaparecer, ser esquecido, ou ser corrigido sem que a equipe tenha visibilidade de quantos problemas existem ou de sua prioridade |
 
 ### 2.2 Responsabilidade pela qualidade

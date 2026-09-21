@@ -16,4 +16,4 @@ Repositório para as atividades da Unidade Curricular Qualidade de Software.
 
 ## Aplicação analisada
 
-https://local-eats-unisenac.vercel.app/
+https://local-eats-unisenac.vercel.app/>
