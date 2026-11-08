@@ -13,7 +13,8 @@ Repositório para as atividades da Unidade Curricular Qualidade de Software.
 - atividades/atividade-01/
 - atividades/atividade-02/
 - atividades/atividade-03/
+- atividades/atividade-04/
 
 ## Aplicação analisada
 
-https://local-eats-unisenac.vercel.app/>
+https://local-eats-unisenac.vercel.app/

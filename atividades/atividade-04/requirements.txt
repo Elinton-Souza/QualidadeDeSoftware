@@ -1,0 +1,7 @@
+#Arquivo responsável por listar as bibliotecas Python que o projeto precisa para rodar.
+#Pytest para testes unitários
+#Playwright para teste funcional
+
+pytest
+playwright
+pytest-playwright

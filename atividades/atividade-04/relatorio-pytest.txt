@@ -1,0 +1,15 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.3, pytest-9.1.1, pluggy-1.7.0 -- C:\Python314\python.exe
+cachedir: .pytest_cache
+rootdir: D:\OneDrive - SenacRS\4 semestre\qualidadedeSoftware\QualidadeDeSoftware\atividades\atividade-04
+configfile: pytest.ini
+testpaths: tests
+plugins: anyio-4.15.1, bdd-9.0.1, playwright-0.10.0
+collecting ... collected 4 items
+
+tests/test_localeats.py::test_busca_por_termo_inexistente_nao_retorna_restaurantes[chromium] PASSED [ 25%]
+tests/test_regras_localeats.py::test_pedido_atinge_valor_minimo PASSED   [ 50%]
+tests/test_regras_localeats.py::test_pedido_valor_negativo_gera_valueerror PASSED [ 75%]
+tests/test_regras_localeats.py::test_pedido_com_valor_exatamente_no_minimo PASSED [100%]
+
+============================== 4 passed in 3.81s ==============================
